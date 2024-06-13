@@ -1,2 +1,2 @@
 # MOVIE_FULL_DEV
-App using Next.js 13, MongoDB, Tailwind CSS, TMDB API and NextAuth
+App using React, Redux Toolkit, Nodejs, Firebase, Express, MongoDB and many more technologies
