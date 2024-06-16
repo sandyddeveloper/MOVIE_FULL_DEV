@@ -1,0 +1,121 @@
+.container__login{
+  background: url('https://img.helpnetsecurity.com/wp-content/uploads/2020/03/23143409/netflix-collection.jpg') no-repeat center center/cover;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100vh;
+}
+
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  
+}
+
+.background {
+  width: 100%;
+  height: 100%;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.login-container {
+  background: rgba(0, 0, 0, 0.75);
+  padding: 2rem;
+  border-radius: 8px;
+  max-width: 350px;
+  width: 350px;
+  color: #fff;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-form h1 {
+  font-size: 32px;
+  margin-bottom: 1rem;
+}
+
+.login-form input {
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border-radius: 4px;
+  border: none;
+  background: #333;
+  color: #fff;
+}
+
+.login-form button {
+  padding: 0.75rem;
+  margin-top: 1rem;
+  background-color: #e50914;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.error {
+  color: #e50914;
+  font-size: 0.875rem;
+  margin-bottom: 1rem;
+}
+
+.options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+  font-size: 0.875rem;
+}
+
+.options .remember-me {
+  display: flex;
+  align-items: center;
+}
+
+.options .remember-me input {
+  margin-right: 0.5rem;
+}
+
+.options .help a {
+  color: #b3b3b3;
+  text-decoration: none;
+}
+
+.sign-up {
+  margin-top: 2rem;
+  font-size: 0.875rem;
+}
+
+.sign-up a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.sign-up .captcha {
+  color: #8c8c8c;
+  margin-top: 1rem;
+}
+
+.sign-up .captcha a {
+  color: #0071eb;
+  text-decoration: none;
+}
+ #rememberMe{
+  margin-bottom: 2px;
+  font-size: 40px;
+ }
+ .login-form{
+  padding: auto;
+  margin: auto;
+ }

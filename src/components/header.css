@@ -1,0 +1,26 @@
+.styled-header {
+    padding-right: 4rem;
+    padding-left: 4rem;
+    padding-bottom:2rem ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+  }
+  
+  .logo img {
+    height: 40px;
+    
+  }
+  
+  .header__btn {
+    padding: 0.5rem 1rem;
+    background-color: #e50914;
+    border: none;
+    cursor: pointer;
+    color: white;
+    border-radius: 0.2rem;
+    font-weight: bolder;
+    font-size: 1.05rem;
+  }
+  

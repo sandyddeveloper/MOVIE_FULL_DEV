@@ -1,0 +1,105 @@
+.nav__container {
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+nav {
+  
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  background-color: transparent;
+  transition: background-color 0.3s ease-in-out;
+}
+
+nav.scrolled {
+  background-color: #141414;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.left .brand img {
+  height: 25px;
+}
+
+.links {
+  list-style: none;
+  margin-left: 20px;
+}
+
+.links li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.links a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.search button {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+
+.search input {
+  display: none;
+  margin-left: 10px;
+  padding: 0.3rem;
+  border: none;
+  outline: none;
+  background-color: white;
+  border-radius: 3px;
+}
+
+.search.show-search input {
+  display: block;
+}
+
+button {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 1.2rem;
+  margin-left: 20px;
+}
+
+button:hover {
+  color: red;
+}
+
+button:focus {
+  outline: none;
+}
+
+.poweroff{
+  background-color: transparent;
+  color: white;
+  font-size: 1.2rem;
+
+}
+
+.poweroff :hover{
+  color: red;
+}
